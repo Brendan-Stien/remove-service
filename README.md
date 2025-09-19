@@ -8,9 +8,10 @@ remove-service.sh
 ## 📥 安装
 
 ```bash
-wget --no-check-certificate -qO remove-service.sh 'https://raw.githubusercontent.com/Brendan-Stien/remove-service/refs/heads/main/remove-service.sh'
-chmod +x remove-service.sh
+wget --no-check-certificate -qO remove-service.sh 'https://raw.githubusercontent.com/Brendan-Stien/remove-service/main/remove-service.sh'
 ```
+less remove-service.sh
+bash remove-service.sh
 
 - 提供备份机制（unit 文件、drop-in 配置、timer、可执行文件）
 - 日志记录所有操作，方便回溯
