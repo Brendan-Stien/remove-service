@@ -10,8 +10,9 @@ remove-service.sh
 ```bash
 wget --no-check-certificate -qO remove-service.sh 'https://raw.githubusercontent.com/Brendan-Stien/remove-service/main/remove-service.sh'
 ```
-less remove-service.sh
-bash remove-service.sh
+'less remove-service.sh'
+
+'bash remove-service.sh'
 
 - 提供备份机制（unit 文件、drop-in 配置、timer、可执行文件）
 - 日志记录所有操作，方便回溯
@@ -82,4 +83,5 @@ sudo ./remove-service.sh -y --force serverstatus
 ## 🛠️兼容性
 
 适用于大多数 systemd 系统：Debian/Ubuntu、CentOS/RHEL、RockyLinux、Fedora、ArchLinux 等。
+
 需要 bash 和 root 权限。
