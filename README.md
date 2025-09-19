@@ -1,17 +1,15 @@
-📖 脚本详细介绍
-🔹 脚本名称
+## 🔹 脚本名称
 remove-service.sh
 
-🔹 功能目标
+## 🔹 功能目标
 一个 **安全卸载 systemd 服务** 的脚本。  
 相比手动删除 `.service` 文件更安全，支持 **备份、日志、Dry-run、确认提示**，避免误删关键服务。
 
 ## 📥 安装
 
 ```bash
-git clone <your-repo>
-cd <repo>
-chmod +x remove-service-safeguard.sh
+wget --no-check-certificate -qO remove-service.sh 'https://raw.githubusercontent.com/Brendan-Stien/remove-service/refs/heads/main/remove-service.sh'
+chmod +x remove-service.sh
 ```
 
 - 提供备份机制（unit 文件、drop-in 配置、timer、可执行文件）
