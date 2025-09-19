@@ -8,7 +8,9 @@ remove-service.sh
 ## 📥 安装
 
 ```bash
-wget --no-check-certificate -qO remove-service.sh 'https://raw.githubusercontent.com/Brendan-Stien/remove-service/main/remove-service.sh'
+wget -qO remove-service.sh \
+  'https://raw.githubusercontent.com/Brendan-Stien/remove-service/main/remove-service.sh'
+
 ```
 ` less remove-service.sh `
 
